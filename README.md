@@ -47,9 +47,11 @@ outOfStock: Boolean flag indicating stock availability
 quantity: Number of units per package (mixed with grams for loose produce)
 
 🔧 Project Workflow
+
 Here’s a step-by-step breakdown of what we do in this project:
 
 1. Database & Table Creation
+   
 We start by creating a SQL table with appropriate data types:
 
 CREATE TABLE zepto (
@@ -75,7 +77,9 @@ CREATE TABLE zepto (
   quantity INTEGER
   
 );
+
 2. Data Import
+
 Loaded CSV using pgAdmin's import feature.
 
 If you're not able to use the import feature, write this code instead:
